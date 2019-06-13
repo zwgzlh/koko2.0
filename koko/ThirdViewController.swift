@@ -27,7 +27,7 @@ class ThirdViewController: UIViewController {
         print("cucumber")
         let content = UNMutableNotificationContent()
         content.title = "В городе \(city)"
-        content.body = "Погода \(cityWeather) C˚ "
+        content.body = "Погода \(cityWeather) C˚"
         content.sound = UNNotificationSound.default
         content.badge = 1
         
